@@ -9,6 +9,14 @@
 		padding-right: 65px;
 	}
 
+	&--gutters-large {
+		margin-right: -100px;
+	}
+
+	&--gutters-large > div {
+		padding-right: 100px;
+	}
+
 	&__medium-4 {
 		@mixin atMedium {
 			float: left;
@@ -19,6 +27,13 @@
 			@mixin atMedium {
 				width: 37%;
 			}
+		}
+	}
+
+	&__medium-6 {
+		@mixin atMedium {
+			float: left;
+			width: 50%;
 		}
 	}
 
